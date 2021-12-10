@@ -101,7 +101,7 @@ fun main() {
         var size1 = -1
         var size2 = -1
         var size3 = -1
-        for(point in lowPoints) {
+//        for(point in lowPoints) {
 //            var size = 0
 //            var interrupted = false
 //            for(i in point.first..map.lastIndex) {
@@ -170,18 +170,19 @@ fun main() {
 //                }
 //
 //            }
-            val size = numberOfConnectedPoints(point, map)
-            if(size > size1) {
-                size3 = size2
-                size2 = size1
-                size1 = size
-            } else if(size > size2) {
-                size3 = size2
-                size2 = size
-            } else if(size > size3)
-                size3 = size
-        }
-        return size1 * size2 * size3
+//            val size = numberOfConnectedPoints(point, map)
+//            if(size > size1) {
+//                size3 = size2
+//                size2 = size1
+//                size1 = size
+//            } else if(size > size2) {
+//                size3 = size2
+//                size2 = size
+//            } else if(size > size3)
+//                size3 = size
+//        }
+//        return size1 * size2 * size3
+        return 0
     }
 
     // test if implementation meets criteria from the description, like:
